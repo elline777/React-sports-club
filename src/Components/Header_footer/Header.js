@@ -11,7 +11,7 @@ class Header extends Component {
   render() {
     return (
       <AppBar
-        position="fixed"
+        position='fixed'
         style={{
           backgroundColor: '#98c5e9',
           boxShadow: 'none',
@@ -21,15 +21,15 @@ class Header extends Component {
       >
         <Toolbar style={{ display: 'flex' }}>
           <div style={{ flexGrow: 1 }}>
-            <div className="header_logo">
-              <CityLogo link={true} linkTo="/" width="70px" height="70px" />
+            <div className='header_logo'>
+              <CityLogo link={true} linkTo='/' width='70px' height='70px' />
             </div>
           </div>
-          <Link to="/the_team">
-            <Button color="inherit">The team</Button>
+          <Link to='/the_team'>
+            <Button color='inherit'>The team</Button>
           </Link>
-          <Link to="/matches">
-            <Button color="inherit">Matches</Button>
+          <Link to='/the_matches'>
+            <Button color='inherit'>Matches</Button>
           </Link>
         </Toolbar>
       </AppBar>
